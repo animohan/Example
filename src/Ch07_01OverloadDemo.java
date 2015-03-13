@@ -8,7 +8,7 @@ class OverloadDemo{
 	}
 	
 	void test(int a, int b){
-		System.out.println("Hello OverloadDemo with two parameters " +a +"and" +b); 
+		System.out.println("Hello OverloadDemo with two parameters " +a +" and " +b); 
 	}
 }
 
