@@ -15,8 +15,12 @@ class Factorial{
 class Fibonnaci{
 	int fibo(int in){
 
-		if (in==0){return 0;}
-		if (in==1){return 1;}
+		if (in==0){
+			System.out.print(" "+in+" ");
+			return 0;}
+		if (in==1){
+			System.out.print(" "+in+" ");
+			return 1;}
 		else {
 			return (fibo(in-1)+fibo(in-2));
 			}
@@ -33,7 +37,7 @@ class Ch07_04Recursion{
 		System.out.println("Factorial of 5:"+ f.fact(5));
 		
 		Fibonnaci g = new Fibonnaci();
-		System.out.println("Fibonnaci numbers:"+ g.fibo(5));
+		System.out.println("Fibonnaci numbers:"+ g.fibo(2));
 	}
 	
 }
