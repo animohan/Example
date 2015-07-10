@@ -35,6 +35,8 @@ class Ch07_04Recursion{
 		for (int i=0;i<k;i++){		
 			System.out.println(+i+" Fibonnaci number is:"+g.fibo(i));
 		}
+		//for later: Think of way (Dynamic programming way) so that you are
+		//calculating the value of the same fibonaccis again and again.
 	}
 	
 }
